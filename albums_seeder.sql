@@ -25,6 +25,6 @@ VALUES (‘Michael Jackson’, ‘Thriller’, 1982, ‘Pop’, 49.2),
         ( ‘James Horner’, ‘Titanic’, 1997, ‘Film Score’, 18.1),
         ( ‘Dire Straits’, ‘Brothers in Arms’, 1985, ‘Roots Rock’, 17.7),
         ( ‘Nirvana’, ‘Nevermind’, 1991, ‘Grunge’,  16.7),
-        ( 'Santana', 'Supernatural’\, 1999, ‘Latin Rock’, 20.5),
+        ( 'Santana', 'Supernatural', 1999, 'Latin Rock', 20.5),
         ( 'Guns N\’ Roses', 'Appetite for Destruction', 1987, 'Hard Rock', 21.9),
         ( 'Elton John', ‘Goodbye Yellow Brick Road’, 1973, ‘Rock’,  8.5);

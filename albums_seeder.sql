@@ -1,7 +1,7 @@
 INSERT INTO albums (artist, name, release_date, genre, sales)
-VALUES ( ‘Michael Jackson’, ‘Thriller’, 1982, ‘Pop’, 49.2),
-         ( 'AC/DC', 'Back in Black', 1980, ‘Hard Rock’, 29.5),
-         ( 'Whitney Houston', 'The Bodyguard', 1992, 'Pop’, 32.4),
+VALUES (‘Michael Jackson’, ‘Thriller’, 1982, ‘Pop’, 49.2),
+       ('AC/DC', 'Back in Black', 1980, ‘Hard Rock’, 29.5),
+       ('Whitney Houston', 'The Bodyguard', 1992, 'Pop’, 32.4),
          ( 'Meat Loaf', 'Bat Out of Hell', 1992, 'Hard Rock', 21.7),
          ( 'Eagles', 'Hotel California', 1976, 'Country Rock', 41.2),
          ( ‘Bee Gees’, ‘Saturday Night Fever’, 1977, ‘Rock’,  21.6),
@@ -25,6 +25,6 @@ VALUES ( ‘Michael Jackson’, ‘Thriller’, 1982, ‘Pop’, 49.2),
         ( ‘James Horner’, ‘Titanic’, 1997, ‘Film Score’, 18.1),
         ( ‘Dire Straits’, ‘Brothers in Arms’, 1985, ‘Roots Rock’, 17.7),
         ( ‘Nirvana’, ‘Nevermind’, 1991, ‘Grunge’,  16.7),
-        ( ‘Santana’, ‘Supernatural’, 1999, ‘Latin Rock’, 20.5),
-        ( ‘Guns N\’ Roses’, ‘Appetite for Destruction’, 1987, ‘Hard Rock’, 21.9),
-        ( ‘Elton John’, ‘Goodbye Yellow Brick Road’, 1973, ‘Rock’,  8.5);
+        ( 'Santana', 'Supernatural’\, 1999, ‘Latin Rock’, 20.5),
+        ( 'Guns N\’ Roses', 'Appetite for Destruction', 1987, 'Hard Rock', 21.9),
+        ( 'Elton John', ‘Goodbye Yellow Brick Road’, 1973, ‘Rock’,  8.5);

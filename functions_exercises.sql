@@ -79,8 +79,9 @@ WHERE year(hire_date) BETWEEN 1990 AND 1999
 
 SELECT first_name, last_name, birth_date, hire_date,
        DATEDIFF (curdate(), hire_date)
+
 FROM employees
 WHERE year(hire_date) BETWEEN 1990 AND 1999
-  AND month(birth_date) = 12
-  AND day(birth_date) = 25
+  AND month(birth_date) = 11
+  AND day(birth_date) = 24
 ORDER BY year(birth_date), year(hire_date) DESC;

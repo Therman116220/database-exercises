@@ -3,8 +3,8 @@
 
 
 
---USE codeup_test_db;   //  Changes db
---Describe albums
+-- USE codeup_test_db;   //  Changes db
+-- Describe albums
 /*-- GET STARTED
 mysql.server status;
 mysql.server start;

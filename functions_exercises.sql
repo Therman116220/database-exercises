@@ -68,20 +68,25 @@ SELECT first_name, last_name, birth_date
 FROM employees
 WHERE DATE_FORMAT(birth_date, '%m-%d') IN ('12-25');
 
-
-SELECT first_name, last_name, birth_date, hire_date
+ -- #5
+/*SELECT first_name, last_name, birth_date, hire_date
 FROM employees
 WHERE year(hire_date) BETWEEN 1990 AND 1999
   AND month(birth_date) = 12
-  AND day(birth_date) = 25;
+  AND day(birth_date) = 25;*/
+SELECT *
+FROM employees
+WHERE YEAR(hire_date) BETWEEN 1990 AND 1999
+  AND MONTH (birth_date) = 12
+  AND DAY(birth_date) = 25
+ORDER BY hire_date DESC;
 
-
-
+-- #6
 SELECT first_name, last_name, birth_date, hire_date,
        DATEDIFF (curdate(), hire_date)
 
 FROM employees
 WHERE year(hire_date) BETWEEN 1990 AND 1999
-  AND month(birth_date) = 11
-  AND day(birth_date) = 24
+  AND month(birth_date) = 12
+  AND day(birth_date) = 25
 ORDER BY year(birth_date), year(hire_date) DESC;
